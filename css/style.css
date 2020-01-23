@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,500&display=swap');
+
+:root{
+   --bg-color: #333;
+   --font-color: #fff;
+   --primary-color: #008ed6;
+   --dark-overlay: rgba(0, 0, 0, 0.7);
+}
+
+body {
+   background-color: var(--bg-color);
+   color: var(--font-color);
+   font-family: 'Work Sans', sans-serif;
+   line-height: 1.7;
+}
+
+html{
+   scroll-behavior: smooth;
+}
+
+.navbar{
+   border-bottom: 2px solid var(--primary-color);
+   opacity: 0.8;
+}
+
+#home-section{
+   background: url('../img/home.jpg') no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   min-height: 40vh;
+}
+
+.home-inner{
+   padding-top: 7vh;
+}
+
+.dark-overlay{
+   background-color: var(--dark-overlay);
+   position: relative;
+   top: 0;
+   left: 0;
+   width: 100%;
+   min-height: 40vh;
+}
+
+.card-form{
+   opacity: 0.8;
+}
+
+#home-section .fa, #create .fa{
+   color: var(--primary-color);
+   background-color: #fff;
+   border-radius: 5px;
+   font-size: 30px;
+   padding: 4px;
+}
+
+#explore .fa, #share .fa{
+   color: #fff;
+   background-color: #333;
+   border-radius: 5px;
+   font-size: 30px;
+   padding: 4px;
+   
+}
